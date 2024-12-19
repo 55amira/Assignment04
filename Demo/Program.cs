@@ -51,10 +51,32 @@
         //	return Sum;
         //}
 
+        //static int SumArray(ref int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr[0] = 100;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //    {
+        //        Sum += Arr[i];
+        //    }
+        //    return Sum;
+        //}
+
+        //static int SumArray( int[] Arr)
+        //{
+        //    int Sum = 0;
+        //    Arr = new int[] { 4, 5, 6 };
+        //    for (int i = 0; i < Arr.Length; i++)
+        //    {
+        //        Sum += Arr[i];
+        //    }
+        //    return Sum;
+        //}
+
         static int SumArray(ref int[] Arr)
         {
             int Sum = 0;
-            Arr[0] = 100;
+            Arr = new int[] { 4, 5, 6 };
             for (int i = 0; i < Arr.Length; i++)
             {
                 Sum += Arr[i];
@@ -62,21 +84,6 @@
             return Sum;
         }
         static void Main(string[] args)		{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             #region One D Array            //int[] Numbers;
                                             //Numbers = new int[5];
                                             //Numbers[0] = 12;
@@ -214,12 +221,20 @@
             #region Passing Parameter Reference Type
             //int[] Numbers = { 1, 2, 3 };
 
-            //         //Console.WriteLine(SumArray(Numbers));//Passing By Value
-            //         //Console.WriteLine(Numbers[0]);
+            //Console.WriteLine(SumArray(Numbers));//Passing By Value
+            //Console.WriteLine(Numbers[0]);
 
             //         Console.WriteLine(SumArray(ref Numbers));//Passing By ref
             //         Console.WriteLine(Numbers[0]); 
             #endregion
+
+            //int[] Numbers = { 1, 2, 3 };
+
+            ////Console.WriteLine(SumArray(Numbers));
+            ////Console.WriteLine(Numbers[0]);
+
+            //Console.WriteLine(SumArray(ref  Numbers));
+            //Console.WriteLine(Numbers[0]);
 
 
         }
