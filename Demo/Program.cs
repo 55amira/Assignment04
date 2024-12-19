@@ -44,6 +44,43 @@
             //Console.WriteLine(Numbers.Rank); 
             #endregion
 
+            #region Two D Array
+            //int[,] Marks = new int[3, 3];
+
+            //Marks[0, 0] = 1;
+            //Marks[0, 1] = 5;
+            //Marks[0, 2] = 7;
+
+            //Marks[1, 0] = 11;
+            //Marks[1, 1] = 15;
+            //Marks[1, 2] = 17;
+
+            //Marks[2, 0] = 82;
+            //Marks[2, 1] = 62;
+            //Marks[2, 2] = 12;
+
+            //Console.WriteLine(Marks[1, 0] );
+            //Console.WriteLine(Marks[1, 1] );
+
+            //for(int i=0;i<3;i++)
+            //{
+            //    for(int j=0; j<3;j++)
+            //    {
+            //        Console.Write($"Enter Marks[{i},{j}] ");
+            //        int.TryParse(Console.ReadLine(),out Marks[i,j]);
+            //    }
+            //}
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{Marks[i,j]} ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
         }
     }
 }
