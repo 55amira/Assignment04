@@ -197,6 +197,47 @@
             //Console.WriteLine(Word);
             #endregion
 
+            #region  Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
+
+            //static void Matrix(int Num)
+            //{
+            //    int[,] Numbers = new int[Num,Num];
+            //    for(int i=0;i<Num;i++)
+            //    {
+            //        for (int j=0;j<Num;j++)
+            //        {
+            //            Console.Write($"Numbers[{i},{j}] = ");
+            //            int.TryParse(Console.ReadLine(), out Numbers[i,j]);
+            //        }
+            //    }
+
+            //    for (int i = 0; i < Num; i++)
+            //    {
+            //        for (int j = 0; j < Num; j++)
+            //        {
+            //            Console.Write($"{Numbers[i,j]} ");
+
+            //        }
+            //        Console.WriteLine();    
+            //    }
+            //}
+
+
+            //Console.WriteLine("Enter Size Of Matrix : ");
+            //int.TryParse(Console.ReadLine(), out int Size);
+
+            //Matrix(Size); 
+            #endregion
+
+
+
+
+
+
+
+
+
+
 
 
         }
