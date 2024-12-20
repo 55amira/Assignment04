@@ -37,6 +37,11 @@
             }
             return Sum;
         }
+        static void SumSub(int Number01, int Number02, out int Sum, out int Sub)
+        {
+            Sum = Number01 + Number02;
+            Sub = Number01 - Number02;
+        }
         static void Main(string[] args)
         {
             #region Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -73,6 +78,19 @@
             //Console.WriteLine(Sum);
             //Console.WriteLine(Numbers[0]);
             #endregion
+
+            #region Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+            //Console.WriteLine("Enter Number 1 And Number 2 ");
+            //int.TryParse(Console.ReadLine(),out int Number01);
+            //int.TryParse(Console.ReadLine(), out int Number02);
+
+            //SumSub(Number01,Number02,out int Sum,out int Sub);
+
+            //Console.WriteLine($"Sum = {Sum} ");
+            //Console.WriteLine($"Sub = {Sub} ");
+            #endregion
+
         }
     }
 }
