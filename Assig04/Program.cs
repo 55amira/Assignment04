@@ -114,7 +114,30 @@
             #endregion
 
 
+            #region Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
 
+            //static bool IsPrime(int Number)
+            //{
+            //    bool Flage = false;
+            //    for (int i = 2; i <= Number; i++)
+            //    {
+            //        if (Number % i == 0)
+            //        {
+            //            Flage = false;
+
+            //        }
+            //        else
+            //            Flage = true;
+
+            //    }
+            //    return Flage;
+
+            //}
+
+            //int Number = 8;
+            //Console.WriteLine(IsPrime(Number));
+
+            #endregion
 
 
 
