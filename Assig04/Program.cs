@@ -248,7 +248,7 @@
 
             #region  Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
-            
+
             //int[] Arr1 = { 5, 6, 8 };
             //int[] Arr2 = { 3, 7, 10 };
             //int[] Arr3 = new int[Arr1.Length + Arr2.Length];
@@ -284,6 +284,43 @@
             //}
             #endregion
 
+            #region  Write a program in C# Sharp to count the frequency of each element of an array.
+            //int[] Numbers = { 2, 1, 5, 2, 2, 1, 5, 4, 6, 4, 5};
+
+            //for (int i=0;i<Numbers.Length;i++)
+            //{
+            //    int count = 0;
+            //    for(int j=0;j<Numbers.Length;j++)
+            //    {
+            //        if(Numbers[j] == Numbers[i])
+            //            count++;
+            //    }
+            //    Console.WriteLine($"{Numbers[i]}  Count = {count} ");
+            //}
+
+
+            #endregion
+
+            #region  Write a program in C# Sharp to find maximum and minimum element in an array
+
+            //int[] Array = { 1, 55, 22, 33, 77, 1001 };
+            //int Max = Array[0];
+            //int Min = Array[0];
+            //for (int i = 1; i < Array.Length; i++)
+            //{
+            //    if (Array[i]>Max)
+            //        Max = Array[i];
+            //    else
+            //        Min = Array[i];
+            //}
+            //Console.WriteLine(Max);
+            //Console.WriteLine(Min);
+            #endregion
+
+
+
+
+
 
 
 
@@ -291,5 +328,5 @@
 
 
         }
-}
+    }
 }
