@@ -1,5 +1,10 @@
-﻿namespace Demo{	internal class Program	{
+﻿namespace Demo{	internal class Program	{
 
+        class NewData
+        {
+            public int Sum;
+            public int Mul;
+        }
 
 		#region Function Prototype
 
@@ -83,7 +88,42 @@
             }
             return Sum;
         }
+
+        //static int[] SumMul(int X, int Y)
+        //{
+        //    int[] Result = new int[] { (X + Y), (X * Y) };
+        //    return Result;
+        //}
+
+        //static NewData SumMul(int X, int Y)
+        //{
+        //    NewData Data = new NewData();
+        //    Data.Sum = X + Y;
+        //    Data.Mul = X*Y;
+        //    return Data;
+        //}
+
+        static void SumMul(int X, int Y,out int Sum,out int Mul)
+        {
+            Sum = X + Y;
+            Mul = X * Y;
+        }
         static void Main(string[] args)		{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             #region One D Array            //int[] Numbers;
                                             //Numbers = new int[5];
                                             //Numbers[0] = 12;
@@ -226,16 +266,33 @@
 
             //         Console.WriteLine(SumArray(ref Numbers));//Passing By ref
             //         Console.WriteLine(Numbers[0]); 
+
+            #region Ex01
+            ////int[] Numbers = { 1, 2, 3 };
+
+            //////Console.WriteLine(SumArray(Numbers));
+            //////Console.WriteLine(Numbers[0]);
+
+            ////Console.WriteLine(SumArray(ref  Numbers));
+            ////Console.WriteLine(Numbers[0]); 
             #endregion
+            #endregion
+            #region Output Prameter
 
-            //int[] Numbers = { 1, 2, 3 };
+            ////int A=5, B=6;
+            ////int[] Result= SumMul(A, B);
+            //// Console.WriteLine(Result[0]);
+            //// Console.WriteLine(Result[1]);
 
-            ////Console.WriteLine(SumArray(Numbers));
-            ////Console.WriteLine(Numbers[0]);
+            ////NewData Data = SumMul(A, B);
 
-            //Console.WriteLine(SumArray(ref  Numbers));
-            //Console.WriteLine(Numbers[0]);
+            ////Console.WriteLine(Data.Sum);
+            ////Console.WriteLine(Data.Mul);    
 
-
+            //int A = 5, B = 6,Sum,Mul;
+            //SumMul(A,B,out Sum,out Mul);
+            //Console.WriteLine(Sum);
+            //Console.WriteLine(Mul); 
+            #endregion
         }
     }}
