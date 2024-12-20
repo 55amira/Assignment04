@@ -165,7 +165,20 @@
             //Console.WriteLine(Min); 
             #endregion
 
+            #region Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
 
+            //static int FactorialNumber(int Num)
+            //{
+            //    int Result = 1;
+            //    for (int i =2;i<Num;i++)
+            //    {
+            //        Result *= i;
+            //    }
+
+            //    return Result;
+            //}
+            Console.WriteLine(FactorialNumber(5));
+            #endregion
 
 
 
