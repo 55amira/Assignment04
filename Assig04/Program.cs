@@ -346,9 +346,79 @@
             //} 
             #endregion
 
+            #region  Write a program to create two multidimensional arrays of same size. Accept values from the user and store them in first array. Now copy all the elements of the first array on second array and print second array.
+            //Console.Write("Enter The Number Of Rows : ");
+            //int.TryParse(Console.ReadLine(), out int Rows);
+
+            //Console.Write("Enter The Number Of Cols : ");
+            //int.TryParse(Console.ReadLine(), out int Cols);
+
+            //int[,] Arr1= new int[Rows, Cols];
+            //int[,] Arr2= new int[Rows, Cols];
+
+
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        Console.Write($"Enter Array1[{i},{j}] ");
+            //        int.TryParse(Console.ReadLine(), out Arr1[i, j]);
+            //    }
+            //}
+
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        Arr2[i,j]= Arr1[i, j];
+            //    }
+            //}
+
+            //for (int i = 0; i < Rows; i++)
+            //{
+            //    for (int j = 0; j < Cols; j++)
+            //    {
+            //        Console.Write($"{Arr2[i, j]} ");
+            //    }
+            //    Console.WriteLine();
+            //} 
+            #endregion
+
+            #region  Consider an Array of Integer values with size N, having values as in this Example   
 
 
 
+            //Console.Write("Enter Size Of Array : ");
+            //int.TryParse(Console.ReadLine(), out int Size);
+
+            //int[] Numbers = new int[Size];
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.Write($"Enter The Numbers[{i}] ");
+            //    int.TryParse(Console.ReadLine(), out Numbers[i]);
+
+            //}
+            //int MaxDistance=0;
+            //for(int i = 0;i < Numbers.Length;i++)
+            //{
+            //    for(int j = Numbers.Length-1;j>0;j--)
+            //    {
+            //        int Distance = 0;
+            //        if (Numbers[i] == Numbers[j])
+            //        {
+            //            Distance = j-i;
+            //            if (Distance > MaxDistance)
+            //            {
+            //                MaxDistance = Distance;
+
+            //            }
+            //            break;
+            //        }
+
+            //    }
+            //}
+            //Console.WriteLine(MaxDistance); 
+            #endregion
 
         }
     }
