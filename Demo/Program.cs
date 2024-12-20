@@ -1,4 +1,8 @@
-﻿namespace Demo{	internal class Program	{
+﻿namespace Demo
+{
+
+	internal class Program
+	{
 
         class NewData
         {
@@ -25,9 +29,21 @@
 		//    }
 
 		//} 
-		#endregion
-		//static void PrintShap(int Nunber,string patter="/+*/")		//{		//	for (int i = 0; i <= Nunber; i++)		//	{		//		Console.WriteLine(patter);		//	}		//}		static int SumNumber(int Number01, int Number02)
-		{ 		  return (Number01 + Number02);		}
+		#endregion
+
+		//static void PrintShap(int Nunber,string patter="/+*/")
+		//{
+		//	for (int i = 0; i <= Nunber; i++)
+		//	{
+		//		Console.WriteLine(patter);
+		//	}
+
+		//}
+
+		static int SumNumber(int Number01, int Number02)
+		{ 
+		  return (Number01 + Number02);
+		}
 
         //static void SWAP(int Number01, int Number02)
         //{
@@ -118,8 +134,10 @@
             }
             return Sum;
         }
-        static void Main(string[] args)		{
-            #region One D Array            //int[] Numbers;
+        static void Main(string[] args)
+		{
+            #region One D Array
+            //int[] Numbers;
                                             //Numbers = new int[5];
                                             //Numbers[0] = 12;
                                             //Numbers[1] = 6;
@@ -156,8 +174,10 @@
 
             //Console.WriteLine(Numbers.Length);
             //Console.WriteLine(Numbers.Rank); 
-            #endregion
-            #region Two D Array            //int[,] Marks = new int[3, 3];
+            #endregion
+
+            #region Two D Array
+            //int[,] Marks = new int[3, 3];
 
             //Marks[0, 0] = 1;
             //Marks[0, 1] = 5;
@@ -192,8 +212,10 @@
             //    Console.WriteLine();
             //}
 
-            #endregion
-            #region Two D Array (Juddge)
+            #endregion
+
+            #region Two D Array (Juddge)
+
             //int[][] Marks = new int[3][];
             //Marks[0] = new int[] { 1, 2 };
             //Marks[1] = new int[] { 1, 2, 3 };
@@ -221,7 +243,8 @@
 
             //    }
             //} 
-            #endregion
+            #endregion
+
             //PrintShap();
             //PrintShap(5);
             //PrintShap(5,"*/*");
@@ -252,7 +275,8 @@
 
             //         Console.WriteLine($"A = {A} ");
             //         Console.WriteLine($"B = {B} "); 
-            #endregion
+            #endregion
+
             #region Passing Parameter Reference Type
             //int[] Numbers = { 1, 2, 3 };
 
@@ -296,4 +320,5 @@
             Console.WriteLine(SumArray(1,2,5,4,7,8));   
 
         }
-    }}
+    }
+}
