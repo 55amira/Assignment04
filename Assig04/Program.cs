@@ -177,10 +177,25 @@
 
             //    return Result;
             //}
-            Console.WriteLine(FactorialNumber(5));
+            //Console.WriteLine(FactorialNumber(5));
             #endregion
 
+            #region Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
+            //static void ChangeChar(ref string Word, int Pos,Char NewChar)
+            //{
+            //    //Word.Remove(Pos,1);
+            //    //Word.Insert(Pos, NewChar.ToString());
+
+            //    Word = Word.Substring(0, Pos) + NewChar + Word.Substring(Pos + 1);
+
+            //}
+
+            //string Word = "Amira";
+
+            //ChangeChar(ref Word , 1, 'X');
+            //Console.WriteLine(Word);
+            #endregion
 
 
 
