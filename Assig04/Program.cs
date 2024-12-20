@@ -318,7 +318,24 @@
             #endregion
 
 
+            #region Write a program in C# Sharp to find the second largest element in an array.
 
+
+            //int[] array = { 1, 55, 22, 33, 77, 1001 };
+            //int max1 = array[0];
+            //int max2 = array[0];
+            //for (int i = 1; i < array.Length; i++)
+            //{
+            //    if (array[i] > max1)
+            //        max1 = array[i];
+            //}
+            //for (int i = 1; i < array.Length; i++)
+            //{
+            //    if (array[i] > max2 && array[i]<max1)
+            //        max2 = array[i];
+            //}
+            //Console.WriteLine(max2); 
+            #endregion
 
 
 
