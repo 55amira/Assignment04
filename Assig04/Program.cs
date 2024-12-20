@@ -230,19 +230,58 @@
             #endregion
 
             #region Write a program in C# Sharp to find the sum of all elements of the array.
-            
+
             //int[] Numbers = { 1, 5, 4, 30 };
 
             //int Sum = 0;
             //for (int i = 0; i < Numbers.Length; i++)
             //{
-                
+
             //    Sum += Numbers[i];
-                
+
             //}
 
             //Console.WriteLine(Sum);
 
+            #endregion
+
+
+            #region  Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            
+            //int[] Arr1 = { 5, 6, 8 };
+            //int[] Arr2 = { 3, 7, 10 };
+            //int[] Arr3 = new int[Arr1.Length + Arr2.Length];
+
+            //int i = 0, j = 0, k = 0;
+
+            //while (i < Arr1.Length && j < Arr2.Length)
+            //{
+            //    if (Arr1[i] < Arr2[j])
+            //    {
+            //        Arr3[k++] = Arr1[i++];
+            //    }
+            //    else
+            //    {
+            //        Arr3[k++] = Arr2[j++];
+            //    }
+
+            //}
+
+            //while (i < Arr1.Length)
+            //{
+            //    Arr3[k++] = Arr1[i++];
+            //}
+
+            //while (j < Arr2.Length)
+            //{
+            //    Arr3[k++] = Arr2[j++];
+            //}
+
+            //for (int x = 0; x < Arr3.Length; x++)
+            //{
+            //    Console.Write($"{Arr3[x]} ");
+            //}
             #endregion
 
 
@@ -251,9 +290,6 @@
 
 
 
-
-
-
         }
-    }
+}
 }
