@@ -229,7 +229,21 @@
             //Matrix(Size); 
             #endregion
 
+            #region Write a program in C# Sharp to find the sum of all elements of the array.
+            
+            //int[] Numbers = { 1, 5, 4, 30 };
 
+            //int Sum = 0;
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+                
+            //    Sum += Numbers[i];
+                
+            //}
+
+            //Console.WriteLine(Sum);
+
+            #endregion
 
 
 
